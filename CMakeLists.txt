@@ -13,6 +13,7 @@ add_library(Boost::function ALIAS boost_function)
 
 target_include_directories(boost_function INTERFACE include)
 
+#[[
 target_link_libraries(boost_function
     INTERFACE
         Boost::assert
@@ -26,3 +27,4 @@ target_link_libraries(boost_function
         Boost::type_traits
         Boost::typeof
 )
+]]
