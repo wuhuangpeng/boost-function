@@ -621,9 +621,9 @@ namespace boost
     BOOST_HASH_SPECIALIZE(long)
     BOOST_HASH_SPECIALIZE(unsigned long)
 
-    BOOST_HASH_SPECIALIZE(float)
+    //BOOST_HASH_SPECIALIZE(float)
     BOOST_HASH_SPECIALIZE(double)
-    BOOST_HASH_SPECIALIZE(long double)
+    //BOOST_HASH_SPECIALIZE(long double)
 
     BOOST_HASH_SPECIALIZE_REF(std::string)
 #if !defined(BOOST_NO_STD_WSTRING) && !defined(BOOST_NO_INTRINSIC_WCHAR_T)
